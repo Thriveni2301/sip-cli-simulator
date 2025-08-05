@@ -21,15 +21,4 @@ This is intended for learning, testing, or automation of SIP signaling using cus
 ```bash
 g++ -std=c++17 -o sipcli src/main.cpp src/SIPMessageBuilder.cpp src/UDPSocket.cpp src/ConfigLoader.cpp
 
- Planned Enhancements
-Add SDP parsing and RTP stream simulation
-Support for REGISTER and 401/407 Authentication
-Interactive CLI for sending SIP commands manually
-Pcap-compatible logs for Wireshark analysis
-
-Use Cases
-VoIP developer testing SIP flows without a full PBX
-Debugging or simulating SIP signaling issues
-Automation scripts for SIP monitoring
-
 
