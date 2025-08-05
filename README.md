@@ -19,6 +19,7 @@ This is intended for learning, testing, or automation of SIP signaling using cus
 ## Build Instructions
 
 ```bash
-g++ -std=c++17 -o sipcli src/main.cpp src/SIPMessageBuilder.cpp src/UDPSocket.cpp src/ConfigLoader.cpp
-
+make clean
+make
+./build/sip_agent
 
